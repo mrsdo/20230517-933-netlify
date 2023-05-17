@@ -3,24 +3,24 @@ import Layout from '../components/layout.astro';
 ---
 
 <Layout
-  title="Is this a Deploy Preview"
+
+  title="Try With Pull to Main"
   description="See and share your changes in a production environment so you can ship with confidence. Gather feedback in your preferred project management tool right through your Deploy Previews!"
 >
   <main>
-    <h2>This is a Deploy Preview!</h2>
+    <h2>Next: Deploy with Pull Option</h2>
     <ol>
       <li>
-        Create a new branch in your repo called{' '}
-        <code>deploy-preview-test</code> - DONE.
+        Switch to the repo called{' '}
+        <code>deployPreview</code>.
       </li>
       <li>
-        Edit <code>pages/deploy-previews.js</code> to edit the headline “Try
-        out Deploy Previews.” so it reads, “This is a Deploy Preview!”
+        Edit the file: <code>pages/deploy-previews.astro</code>
       </li>
       <li>Save the change, commit it, and push it to your GitHub repo.</li>
       <li>
         Open a pull request against the <code>main</code> branch from the{' '}
-        <code>deploy-preview-test</code> branch.
+        <code>deployPreview</code> branch.
       </li>
       <li>
         Visit <a href="https://app.netlify.com">app.netlify.com</a> —
