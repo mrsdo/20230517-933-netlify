@@ -1,0 +1,91 @@
+---
+import Layout from '../components/layout.astro';
+---
+
+<style>
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 35ch;
+    }
+
+    .form label {
+        color: var(--heading);
+        font-size: 0.625rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+
+    .form label:first-of-type {
+        margin-top: 0;
+    }
+
+    .form input,
+    .form textarea {
+        color: var(--text);
+        font-family: inherit;
+        font-size: 1rem;
+        margin-top: 0.25rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .form textarea {
+        height: 100px;
+    }
+
+    .button {
+        margin-top:1rem;
+        border:none;
+    }
+
+
+    .heading,
+    .docs {
+        text-align: center;
+    }
+</style>
+
+<Layout
+  title="Contact Form"
+  description="This is my first Netlify Form."
+>
+  <main>
+    <h2 class="heading">Testing my first Form</h2>
+
+    <form
+      class="form"
+      method="POST"
+      name="contact"
+      action="/success"
+      data-netlify="true"
+    >
+      <p>
+        <label htmlFor="name">Your Name: <input type="text" id="name" name="name" /></label>
+      </p>
+      <p>
+        <label htmlFor="email">Your Email: <input type="email" id="email" name="email" /></label>
+      </p>
+      <p>
+        <label htmlFor="role">Your Role: <select name="role[]" id="role" multiple>
+          <option value="developer">Developer</option>
+          <option value="student">Student</option>
+          <option value="browsing">Just browsing</option>
+        </select></label>
+      </p>
+      <p>
+        <label htmlFor="message">Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit" class="button">Send</button>
+      </p>
+    </form>
+    <p class="docs">
+      <a href="https://docs.netlify.com/forms/setup/">
+        Learn about Netlify Forms in the docs.
+      </a>
+    </p>
+  </main>
+</Layout>
