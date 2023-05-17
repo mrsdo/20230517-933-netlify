@@ -19,7 +19,6 @@
 | `• Explore using GitHub workflows`                                 |             |
 | `• Implement DevOps via Netlify CLI with local to the remote`      |             |
 | `• Explore content API push/pull (Gatsby?)`                        |             |
-| ------------------------------------------------------------------ | ----------- |
 
 
 ## Workflow Tasks Documentation
