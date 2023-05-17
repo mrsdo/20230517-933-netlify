@@ -20,17 +20,18 @@
 | `• Implement DevOps via Netlify CLI with local to the remote`      |             |
 | `• Explore content API push/pull (Gatsby?)`                        |             |
 
-
 ## Workflow Tasks Documentation
 
 <details>
  <summary>20230517-933-29S-3	Clone a repo to local host</summary>
 
-> Deploy via Netlify | [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-feature-tour&utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples)
+> Get started with Netlify CLI: https://docs.netlify.com/cli/get-started/
 
-> Clone local | Run NPM install from package.json 
+> Deploy via Netlify  [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-feature-tour&utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples)
 
-> 
+> Clone local > Run NPM install from package.json 
+
+> Run a Netlify project > netlify dev
 
 
 </details>
