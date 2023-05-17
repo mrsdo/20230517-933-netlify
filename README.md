@@ -10,15 +10,15 @@
 
 
 ## Challenges & Goals
+Map: x = done p = in process r = researching
 
-
-| Server                                                             | Completed   |
-|--------------------------------------------------------------------|-------------|
-| `• Learn how to create/manage sites using Netlify`                 |             |
-| `• Create a portal repository for web applications and projects`   |             |
-| `• Explore using GitHub workflows`                                 |             |
-| `• Implement DevOps via Netlify CLI with local to the remote`      |             |
-| `• Explore content API push/pull (Gatsby?)`                        |             |
+| Server                                                           | Completed |
+|------------------------------------------------------------------|-----------|
+| `• Learn how to create/manage sites using Netlify and GitHub`    | r         |
+| `• Create a portal repository for web applications and projects` | p         |
+| `• Explore using GitHub workflows`                               | p         |
+| `• Implement DevOps via Netlify CLI with local to the remote`    | p         |
+| `• Explore content API push/pull (Gatsby?)`                      | p         |
 
 ## Workflow Tasks Documentation
 
@@ -143,10 +143,25 @@ ntl dev
 
 > This rule adds a new 'path' to the hello-world URL
 
->> OLD: PATH/.netlify/functions/hello-world
+- OLD: PATH/.netlify/functions/hello-world
 
->> NEW: PATH/api/hello-world 
+- NEW: PATH/api/hello-world 
 
 > Testing requires a commit/push to GitHub repo
+
+</details>
+
+<details>
+ <summary>20230517-933-29S-7	Using Forms</summary>
+
+src: https://docs.netlify.com/forms/setup/?_gl=1%2a1javo8i%2a_gcl_aw%2aR0NMLjE2ODQzMjg3NzQuQ2p3S0NBanc5cEdqQmhCLUVpd0FhNWpsM0RyLXFReG5BekM4N1JabWt1VWppYnRKSmh0MGJWemlBRXhqbmpiWW9UZnZkUGw3ZldlazRob0NVN0VRQXZEX0J3RQ..&_ga=2.181328544.601870155.1684328774-1597434842.1684328774&_gac=1.85213675.1684328774.CjwKCAjw9pGjBhB-EiwAa5jl3Dr-qQxnAzC87RZmkuUjibtJJht0bVziAExjnjbYoTfvdPl7fWek4hoCU7EQAvD_BwE
+
+> Enable automatic form detection in Netlify UI. Site Settings > Forms > Enable form detection
+ 
+> /src/pages/contact-form.astro
+
+> Commit and push
+
+> Test via PATH/netlify-forms/
 
 </details>
