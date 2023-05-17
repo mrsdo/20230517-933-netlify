@@ -29,9 +29,18 @@
 
 > Deploy via Netlify  [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-feature-tour&utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples)
 
-> Clone local > Run NPM install from package.json 
+> Switch to the repo called deployPreview.
 
-> Run a Netlify project > netlify dev
+> Edit the file: pages/deploy-previews.astro
 
+> Save the change, commit it, and push it to your GitHub repo.
+
+> Open a pull request against the main branch from the deployPreview branch.
+ 
+> Visit app.netlify.com — Netlify will automatically build the Deploy Preview.
+
+> Once the site is done building, visit the generated URL to access your changes!
+
+> Learn about Deploy Previews in the Netlify docs: https://docs.netlify.com/site-deploys/deploy-previews/
 
 </details>
