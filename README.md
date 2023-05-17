@@ -20,7 +20,7 @@ Map: x = done p = in process r = researching
 | `• Implement DevOps via Netlify CLI with local to the remote`    | p         |
 | `• Explore content API push/pull (Gatsby?)`                      | p         |
 
-## Workflow Tasks Documentation
+## Workflows & Tasks Documentation
 
 <details>
  <summary>20230517-933-29S-3	Clone a repo to local host</summary>
@@ -162,6 +162,12 @@ src: https://docs.netlify.com/forms/setup/?_gl=1%2a1javo8i%2a_gcl_aw%2aR0NMLjE2O
 
 > Commit and push
 
-> Test via PATH/netlify-forms/
+> Test via https://loquacious-pastelito-10a592.netlify.app/contact-form/ 
+ 
+> Returns message: Submission received!
+
+> To see the results of this: In the Netlify UI, select the Forms tab for your site.
+
+> Select the active contact form from the Active forms list, and you should find the submission listed.
 
 </details>
