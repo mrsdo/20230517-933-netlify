@@ -69,11 +69,13 @@ import Layout from '../components/layout.astro';
         <label htmlFor="email">Your Email: <input type="email" id="email" name="email" /></label>
       </p>
       <p>
-        <label htmlFor="role">Your Role: <select name="role[]" id="role" multiple>
-          <option value="developer">Developer</option>
-          <option value="student">Student</option>
-          <option value="browsing">Just browsing</option>
-        </select></label>
+        <label htmlFor="role">Your Role:
+          <select name="role[]" id="role" multiple>
+          <option class="selected" value="developer" id="developer">Developer</option>
+          <option value="student" id="student">Student</option>
+          <option value="browsing" id="browsing">Just browsing</option>
+        </select>
+        </label>
       </p>
       <p>
         <label htmlFor="message">Message: <textarea name="message"></textarea></label>
